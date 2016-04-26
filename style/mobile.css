@@ -64,6 +64,9 @@
     margin: 5px auto;
     float: none;
   }
+  #graphics img{
+      width:300;
+  }
   main{
     margin-top: 5px;
   }
