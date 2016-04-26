@@ -1,0 +1,285 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes|Julius+Sans+One|Slabo+27px);
+
+
+
+
+body{
+  background-color: rgba(0, 0, 0, 0.85);
+  font-size: 17px;
+  margin:0 auto;
+  overflow: auto;
+  min-width: 863px;
+  color: rgba(255, 255, 255, 0.83);
+  font-family: "Slabo+27px", serif;
+}
+#prepage{
+  background-image: url("../pics/stem.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: grey;
+  background-repeat: no-repeat;
+  margin:0 auto;
+  overflow: auto;
+  min-width: 775px;
+}
+strong{
+  font-size:50px;
+  font-family: "great vibes", cursive;
+}
+#prepage strong{
+  font-size:110px;
+  font-family: "great vibes", cursive;
+}
+ header,h1,nav,ul,li{
+  display: inline;
+
+}
+#top{
+  margin: 30px 0px 10px 0px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+
+
+}
+
+h1{
+  padding-left: 30px;
+  color:white;
+  font-size: 30px;
+  font-family: "Julius Sans One", cursive;
+}
+main{
+  margin:30px 0px;
+  }
+
+nav{
+  float:right;
+  margin-top: 30px;
+  padding-right: 20px;
+}
+ul{
+  width: 500px;
+  padding-left: 0px;
+}
+
+
+nav a{
+  font-size: 18px;
+  font-family: "Julius Sans One", cursive;
+  text-decoration: none;
+  color:white;
+  margin:0px 20px;
+ border-bottom: 2px solid transparent;
+ transition: border-bottom .5s ease-in;
+}
+
+nav a:hover{
+
+ border-bottom: 2px solid lightgrey;
+
+ transition: border-bottom .3s ease-in;
+
+}
+
+img{
+
+  margin:15px;
+  display:inline;
+  position: relative;
+  transform: scale(1);
+  transition: transform .5s ease-in;
+
+}
+img:hover{
+  z-index: 5;
+  transform: scale(1.1);
+  transition: transform .5s ease-in;
+}
+#graphics img{
+  height: 300px;
+}
+
+
+
+
+
+
+
+#prepage h1{
+  display:block;
+  font-family: "Julius Sans One", cursive;
+  font-size: 60px;
+  width: 690px;
+  margin:200px auto 10px auto;
+  color:white;
+  padding: 0px;
+
+}
+#prepage nav{
+  float:none;
+  display: block;
+  width:710px;
+  padding:0px;
+  margin:0 auto;
+
+}
+#prepage li{
+
+  display:inline;
+  padding: 0;
+
+}
+#prepage a{
+  margin: 0;
+  font-family: "Julius Sans One", cursive;
+  color:white;
+  font-size: 20px;
+  text-decoration: none;
+  padding:5px 30px;
+  border-bottom: 2px solid transparent;
+  background: rgba(225, 225, 225, 0.2);
+  transition: all .8s ease-in;
+}
+
+#prepage a:hover{
+  color:black;
+  border-bottom: 2px solid black;
+  background: rgba(255, 255, 255, 0.7);
+  transition: all .5s ease-in;
+
+}
+h2{
+  font-size: 23px;
+  font-family: "Julius Sans One", cursive;
+  padding:3px 7px;
+  border-left:8px solid rgba(255, 255, 255, 0.5);
+  border-bottom:4px solid rgba(255, 255, 255, 0.5);
+
+  }
+h3{
+    font-family: "Julius Sans One", cursive;
+  border-left: 8px solid rgb(192,192,192);
+  padding:3px 7px;
+  letter-spacing: .6px;
+  }
+
+h4{
+    font-family: "Julius Sans One", cursive;
+    margin:5px 2px;
+  }
+  p{
+    line-height: 130%;
+  }
+table{
+  border-collapse: collapse;
+  width: 460px;
+  }
+table, th, td{
+  border:2px solid grey;
+  text-align: center;
+  vertical-align: middle;
+  }
+td:nth-child(2n+0){
+    text-align: left;
+  }
+
+  #about p a, #resume a{
+    color:#3366CC;
+    text-decoration: none;
+    transition: all .5s ease-in;
+  }
+  #about p a:hover, #resume a:hover{
+    color:#33CCFF;
+    text-decoration: underline;;
+    transition: all .5s ease-in;
+  }
+
+
+  #resume address li {
+    display: block;
+    padding-left: 10px;
+  }
+#page_nav{
+  font-family: "Julius Sans One", cursive;
+  float:none;
+padding: 0px 0px 0px 6px;
+  width:1005px;
+  margin:0px auto;
+
+  }
+
+#page_nav li{
+      display: inline;
+      }
+#page_nav ul{
+  padding-left: 0px;
+}
+
+
+#page_nav a{
+
+font-size: 21px;
+    color:white;
+    width:250px;
+    margin: 0px;
+    margin-right: 26px;
+
+    }
+    #page_nav a:hover{
+color:white;
+text-decoration: none;
+        }
+
+#resume{
+    width:1050px;/*This is larger than 960px but I'm using 2 columns*/
+    margin:0 auto;
+    overflow: auto;
+}
+#about img{
+  float:left;
+  display: inline;
+  transition: none;
+  transform: none;
+  margin:0px 10px 10px 20px ;
+
+}
+
+#about{
+  min-width: 928px;
+}
+
+#about p{
+
+  margin-top: 5px;
+  width: 470px;
+  display: inline-block;
+}
+#info{
+  float: right;
+  margin: 0px 205px 0px 0px;
+}
+#info h2{
+  border:none;
+  padding: 0px;
+  margin:0px 0px 20px 0px;
+
+}
+#info li{
+  display: block;
+}
+
+.right{
+      float:right;
+      width:500px;
+
+      }
+
+.left{
+    width:500px;
+    float:left;
+
+    }
+h3 + p{
+    margin:0px 18px;
+    font-size: 18px;
+    }
