@@ -1,0 +1,98 @@
+
+
+
+*{background: transparent; !important
+  color:black;
+  font-size: 12pt;
+  font-family: serif;
+  clear: both;
+}
+@page{
+  margin:.5in;
+}
+strong{
+font-size: 24pt;
+font-family: sans-serif;
+}
+body {
+  width: 460pt;
+  margin: 0 auto;
+    }
+h1{
+    font-size: 24pt;
+  }
+nav{
+  display: none;
+}
+img{
+  display:none;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+h3 + p{
+font-weight:bold;
+margin:0pt 15pt;
+}
+
+h1,h2,h3,h4{
+          font-family: sans-serif;
+          letter-spacing: .4pt;
+          margin:7pt 0pt;
+
+          }
+
+h2{
+  font-size:17pt;
+  padding:0pt 7pt;
+  margin-top: 15pt;
+  border-left:6pt solid grey;
+  border-bottom:2pt solid grey;
+
+  }
+h3{
+  font-size:14pt;
+  border-left: 6pt solid lightgrey;
+  padding:0pt 7pt;
+  }
+  h3 a{font-family: sans-serif;
+  letter-spacing: .4pt;
+  margin:7pt 0pt;
+font-size: 14pt;}
+
+
+  h4{
+    font-weight: bold;
+    margin-bottom: 0pt;
+    padding-bottom: 0pt;
+    padding-top: 5pt;
+  }
+  h4 a{
+    font-family: sans-serif;
+  }
+
+
+  p{
+    margin:5pt 0pt;
+  }
+
+  ul{
+    margin:2pt 5pt;
+  }
+table{
+  border-collapse: collapse;
+  margin:3pt auto;
+  width: 400pt;
+  }
+table, th, td{
+  border:2pt solid grey;
+  text-align: center;
+  vertical-align: middle;
+  }
+  td:nth-child(2n+0){
+      text-align: left;
+    }
+  #work_experience{
+    margin-top: 50pt;
+  }
