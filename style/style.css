@@ -294,6 +294,9 @@ h3 + p{
  display:block;
 }
 
-#catalog li {
-  display:block;
+#cat_nav{
+  float:none;
+}
+#cat_nav li{
+  display: block;
 }
