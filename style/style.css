@@ -285,9 +285,11 @@ h3 + p{
     }
 
 .float_center {
+  display:block;
   float: right;
 
   position: relative;
   left: -50%; /* or right 50% */
   text-align: left;
+ 
 }
