@@ -284,22 +284,19 @@ h3 + p{
     font-size: 18px;
     }
 
-.float_center {
- 
-  float: none;
-
-  position: relative;
-  left: -50%; /* or right 50% */
-  text-align: left;
- display:block;
-}
 
 #cat_nav{
   float:none;
- 
+
 }
 #cat_nav li{
   display: block;
- 
- 
+ padding-top: 5px;
+margin:auto;
+width: 20%;
+text-align: center;
+}
+#catalogs{
+  float: none;
+  display:block;
 }
