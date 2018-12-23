@@ -296,6 +296,9 @@ h3 + p{
 
 #cat_nav{
   float:none;
+  position: relative;
+  left: -50%; /* or right 50% */
+  text-align: left;
 }
 #cat_nav li{
   display: block;
