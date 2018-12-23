@@ -80,14 +80,12 @@ nav a:hover{
  transition: border-bottom .3s ease-in;
 
 }
-#catalog_nav{
- float: right;
+.float_center {
+  float: right;
 
   position: relative;
   left: -50%; /* or right 50% */
   text-align: left;
-  margin-top: 30px;
-  padding-right: 20px;
 }
 img{
 
