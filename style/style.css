@@ -286,10 +286,10 @@ h3 + p{
 
 .float_center {
  
-  float: right;
+  float: none;
 
   position: relative;
   left: -50%; /* or right 50% */
   text-align: left;
- 
+ display:block;
 }
