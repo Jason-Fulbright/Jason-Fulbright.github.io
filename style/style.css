@@ -80,13 +80,7 @@ nav a:hover{
  transition: border-bottom .3s ease-in;
 
 }
-.float_center {
-  float: right;
 
-  position: relative;
-  left: -50%; /* or right 50% */
-  text-align: left;
-}
 img{
 
   margin:15px;
@@ -289,3 +283,11 @@ h3 + p{
     margin:0px 18px;
     font-size: 18px;
     }
+
+.float_center {
+  float: right;
+
+  position: relative;
+  left: -50%; /* or right 50% */
+  text-align: left;
+}
