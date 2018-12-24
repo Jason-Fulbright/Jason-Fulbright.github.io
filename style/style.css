@@ -289,12 +289,18 @@ h3 + p{
   float:none;
 
 }
-#cat_nav li{
+#cat_nav li {
   display: block;
  padding-top: 5px;
 margin:auto;
 width: 20%;
 text-align: center;
+}
+#cat_nav p{
+  display: block;
+margin:auto;
+text-align: center;
+padding-top: 50px;
 }
 #catalogs{
   float: none;
